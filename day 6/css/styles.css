@@ -1,0 +1,137 @@
+body {
+    background: #f7f7f7;
+    margin: 0;
+}
+
+.container {
+    max-width: 100%;
+    padding: 0px 20px;
+}
+
+h1 {
+    font-size: 22px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 14px;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+p {
+    font-size: 14px;
+    color: #7e7e7e;
+    margin: 0;
+    margin-bottom: 3px;
+}
+
+a {
+    text-decoration: none;
+    color: #00a1ff;
+}
+
+
+/* Style navbar */
+
+.logo {
+    width: 60px;
+}
+
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background: #fff;
+    margin: 0 -22px;
+}
+
+.left-nav ion-icon {
+    font-size: 27px;
+    margin-right: 10px;
+}
+
+.search {
+
+}
+
+.search input {
+    width: 300px;
+    padding: 7px;
+    border: solid 1px #ddd;
+}
+
+button.btn-search {
+    padding: 5px 18px;
+    border: solid 1px #ddd;
+    font-size: 14px;
+    height: 100%;
+    display: inline-flex;
+    margin-left: -6px;
+}
+
+.menu ion-icon {
+    font-size: 17px;
+    padding: 5px;
+}
+
+/* Content videos */
+
+.content-videos {
+    background: #f7f7f7;
+    padding: 20px 40px;
+    display: flex;
+}
+
+.main-video {
+    width: 70%;
+    margin-right: 20px;
+}
+
+.sidebar {
+    width: 30%;
+}
+
+.top-sidebar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-sidebar h4 {
+    margin-top: 0;
+}
+
+.video-sidebar {
+    display: flex;
+}
+
+.video {
+    width: 45%;
+}
+
+.video-info {
+    width: 55%;
+}
+
+/* Style Main video*/
+.hashtag {
+    margin-top: 15px;
+}
+
+.bottom-main-video {
+    display: flex;
+    justify-content: space-between;
+}
+
+.like-and-share {
+    font-size: 14px;
+}
+
+.icon-video {
+    margin-right: 10px;
+}
+
+.icon-video ion-icon {
+    margin-right: 5px;
+}

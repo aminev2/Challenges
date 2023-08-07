@@ -3,8 +3,102 @@
 <head>
     <meta charset="UTF-8" />
     <title>Youtube</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </head>
 <body>
-    
+    <div class="container">
+        <nav class="nav">
+            <div class="left-nav">
+                <ion-icon name="menu-outline"></ion-icon>
+                <img class="logo" src="images/youtube.png" alt="">
+            </div>
+            <div class="search">
+                <input type="text" placeholder="Search">
+                <button name="btn" class="btn-search"><ion-icon name="search-outline"></ion-icon></button>
+            </div>
+            <div class="menu">
+                <ion-icon name="videocam-outline"></ion-icon>
+                <ion-icon name="options-outline"></ion-icon>
+                <ion-icon name="notifications-outline"></ion-icon>
+            </div>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="content-videos">
+            <div class="main-video"> <!-- Start main video -->
+                <div class="mvideo">
+                    <iframe width="100%" height="460" src="https://www.youtube.com/embed/0ZV9d4fMx_E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="info-main-video">
+                    <div class="hashtag">
+                        <a href="">#CSS</a>
+                        <a href="">#HTML</a>
+                        <a href="">#Java script</a>
+                    </div>
+                    <h1>Comprendre EM vs REM en CSS</h1>
+                    <div class="bottom-main-video">
+                        <div class="statut">
+                            <p>6,1 k vues  il y a 11 mois</p>
+                        </div>
+                        <div class="like-and-share">
+                            <span class="icon-video"><ion-icon name="thumbs-up-outline"></ion-icon>150k</span>
+                            <span class="icon-video"><ion-icon name="thumbs-down-outline"></ion-icon>226</span>
+                            <span class="icon-video"><ion-icon name="share-social-outline"></ion-icon>SHARE</span>
+                            <span class="icon-video"><ion-icon name="save-outline"></ion-icon>SAVE</span>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- End main video -->
+            <div class="sidebar">
+                <div class="top-sidebar">
+                    <h4>Up next</h4>
+                    <h4>Auto play</h4>
+                </div>
+                <div class="video-sidebar"> <!-- Start Video next up -->
+                    <div class="video">
+                        <iframe width="150" height="100" src="https://www.youtube.com/embed/gXLjWRteuWI?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                    
+                    </div>
+                    <div class="video-info">
+                        <h3>Learn HTML & CSS in 2022 | Crash Course</h3>
+                        <p>DesignCourse</p>
+                        <p>200K views - 5 years ago</p>
+                    </div>
+                </div> <!-- End Video next up -->
+                <div class="video-sidebar"> <!-- Start Video 1 -->
+                    <div class="video">
+                        <iframe width="150" height="100" src="https://www.youtube.com/embed/H4UtKu11yXg?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Flexbox Tutorial (CSS): Real Layout Examples</h3>
+                        <p>Mark devtools</p>
+                        <p>25M views - 5 years ago</p>
+                    </div>
+                </div> <!-- End Video 1 -->
+                <div class="video-sidebar"> <!-- Start Video 2 -->
+                    <div class="video">
+                        <iframe width="150" height="100" src="https://www.youtube.com/embed/k32voqQhODc?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                    
+                    </div>
+                    <div class="video-info">
+                        <h3>CSS Grid Tutorial: Responsive Design Examples</h3>
+                        <p>LearnWebCode</p>
+                        <p>1M views - 2 years ago</p>
+                    </div>
+                </div> <!-- End Video 2 -->
+                <div class="video-sidebar"> <!-- Start Video 3 -->
+                    <div class="video">
+                        <iframe width="150" height="100" src="https://www.youtube.com/embed/Kl3nOXQjVnQ?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                    
+                    </div>
+                    <div class="video-info">
+                        <h3>The 2023 Frontend Development Crash Course - Learn HTML & CSS</h3>
+                        <p>DesignCourse</p>
+                        <p>3M views - 1 years ago</p>
+                    </div>
+                </div> <!-- End Video 3 -->
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>
