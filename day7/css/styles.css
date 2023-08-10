@@ -5,6 +5,7 @@
     grid-template-columns: repeat(6 , 125px);
     grid-template-rows: repeat(6, 200px);
     gap: 10px;
+    grid-template
 }
 
 .box {
