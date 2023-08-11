@@ -1,0 +1,30 @@
+/* ==========> Style header <========== */
+nav.my-nav {
+    background: #222831 !important;
+}
+
+.my-nav-link {
+    color: #fff !important;
+}
+
+
+
+/* ==========> Style header <========== */
+
+.header {
+    padding: 8%;
+}
+
+.img-header {
+    padding: 20px;
+}
+
+.left-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left-header h1 {
+    font-size: 3rem;
+}
